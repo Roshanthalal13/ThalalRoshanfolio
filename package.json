@@ -1,0 +1,19 @@
+{
+    "name": "A03",
+    "version": "0.0.1",
+    "description": "resume app",
+    "main": "app.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest"
+    },
+    "author": "Roshan Thalal",
+    "homepage": "https://bitbucket.org/Roshanthalal13/",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/Roshanthalal13/"
+    },
+    "license": "Apache-2.0"
+}
