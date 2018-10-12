@@ -1,0 +1,59 @@
+<% include header.ejs %>
+<div id="#menubar" role="dropdownmenubar">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <script>        //this javascript functions are calling opennav() and closenav().
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("menubar").style.marginLeft = "250px";
+             }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("menubar").style.marginLeft= "0";
+        }
+    </script>
+   <div id="mySidenav" class="sidenav">
+       <a href="" class="closebtn" onclick="closeNav()">&times;</a>
+       <a href="/index">Home</a>
+       <a href="/about">About</a>
+       <a href="views/resume">Resume</a>
+       <a href="/indexThalal">Game</a>
+       <a href="/video">Academic</a>
+       <a href="/pricecalculator">Calculator</a>
+       <a href="/contactme">Contact</a>
+   </div>
+</div>
+    
+        <div class="main" role="main container for grids"  >
+                <img src="image/Roshan.jpg" width="100%" height="50%"> 
+             
+                <div class="header1" role="title of the webpage">
+                </div>
+                <div class="paragraph" role="keeping info about me">
+      
+                </div>
+                <div class="header2" role="saving visitor info">
+      
+                </div>
+                <div id="" role="direct the user to game page">
+      
+                </div>
+                <div id="aboutbutton" class="aboutmebutton" role="footnote of the webpage">
+                 <form method="get" action="/about.ejs">
+                  <button type="submit">More About Me</button>
+                 </form>
+
+      
+                </div>  
+          </div>
+          <div class="thirdcontainer" role="main container for grids" style="background-color:rgb(249, 249, 250)">  
+              <div class="#Put" role="title of the webpage">
+                  <div id="aboutbutton" class="aboutmebutton" role="footnote of the webpage">
+                      <form method="get" action="/video.eja">
+                        <button type="submit">Video</button>
+                    </form>
+      
+            
+                  </div>   
+               </div>
+<% include footer.ejs %>
