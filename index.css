@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(255, 252, 249);
+
+}
+.container{
+    border: solid black;
+    width: 1342px;
+    height: 200%;
+    margin: 0px auto;
+
+
+}
+
+@media screen and (max-width:1341px){
+    .container{
+        width: 100%;
+    }
+    .headerP{
+        height: 10%;
+        width: 100%;
+    }
+
+
+}
+
+
+.header{
+    display: flex;
+    height: 10%;
+    width: 1342px;
+    color:slategrey;
+    float: left;
+    padding: 15px;
+}
+
+#menubar{
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;   
+    width: 28%;
+    height: 15%;    
+    position: absolute;
+}
+
+#menubar{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:gray;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color:white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+div.maintitlebox{ 
+
+position: absolute;
+display: flex;
+width: 1100px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 5vw;
+left: 30%
+}
+
+.main{
+content: "";
+text-align: center;
+position: relative;
+color: white;
+display: flex;
+clear:both;
+float: left;
+width: 1341px;
+
+}
+
+
+.header1{
+position: absolute;
+height: 10%;
+width: 1200px;
+padding: 15px;
+float: left;
+
+}
+
+.paragraph{
+ position: absolute;
+ height: 25%;
+ width: 1200px;
+ padding: 10px; 
+ float: left;
+}
+
+
+.header2{
+
+    position: absolute;
+    height: 10%;
+    width: 1200px;
+    float: left;
+}
+
+.aboutmebutton{
+    position: absolute;
+    height: 5%;
+    width: 960px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20%;
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+.aboutmebutton button{
+    background-color: slategrey;
+    color: white;
+    border-inline-end-color:solid white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    float: left;
+    size:0;
+}
+
+img {
+    opacity: 0.5;
+    -webkit-filter: grayscale(100%);
+}
+
+.thirdcontainer{
+display: flex;
+width: 960px;
+height: 20%;
+
+}
+.footer{
+    display: flex;
+    width: 1200px;
+    height: 25%;
+    float:left;
+}
+
+
+
+

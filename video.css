@@ -1,0 +1,12 @@
+body{
+    background-color: slategrey;
+    float: left;
+    position: absolute;
+
+}
+
+.videolink{
+
+    width: 80%;
+    height: 80%;
+}
